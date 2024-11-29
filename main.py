@@ -1,6 +1,6 @@
 # main.py
-def greet_user(name):
-    # This function greets the user
-    print(f"Hello, {name}!")
+def greet_user(name, greeting):  # Added unnecessary argument
+    # Missing function docstring
+    print(f"Hello, {name}!")  # Hardcoded greeting
 
-greet_user("Alice")
+greet_user("Alice", "Hi")
